@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url(./colores.css);
+@import url(./fonts.css);
 
-* {
- padding: 0;
- margin: 0;
- box-sizing: border-box;
-}
 header {
     position: fixed;
     top: 0;
@@ -124,7 +120,7 @@ header {
     display: flex;
     align-items: center; justify-content: space-between;
     position:fixed; top:0;
-    background-color: #250082;
+    background-color: var(--menu);
     box-sizing: border-box;
     padding: 2vw 10vw;
     height: 15vw; width: 100%;
@@ -154,8 +150,10 @@ header {
 }
 
 #menu a {
-    background-color: #250082; color: white;
-    text-decoration: none; text-align: center;
+    background-color: var(--menu);
+    color: white;
+    text-decoration: none;
+    text-align: center;
     font-size: 2rem;
     font-weight: 500;
     padding: 5.7vw 0;
@@ -287,11 +285,11 @@ iframe {
     #menupc {
         display: flex;
         align-items: center; justify-content: space-between;
-        background-color: #250082;
+        background-color:var(--menu);
         position: fixed; top: 0;
-        height: 12vw; width: 100%;
+        width: 100%;
         box-sizing: border-box;
-        padding: 2vw 5vw;
+        padding: 1rem;
         gap: 7vw;
         z-index: 100;
     }
@@ -464,8 +462,8 @@ iframe {
         display: flex;
         gap: 1.2rem;
 
-        .bi{
-            font-size: 1.5rem;
+        .fa-brands{
+            font-size: 1.9rem;
             color: var(--menu);
             text-decoration: none;
 

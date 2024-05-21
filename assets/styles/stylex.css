@@ -1,13 +1,5 @@
 @import url(./colores.css);
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* body {
-    font-family: "calibri";
-} */
+@import url(./fonts.css);
 
 header {
     height: 4.5rem;
