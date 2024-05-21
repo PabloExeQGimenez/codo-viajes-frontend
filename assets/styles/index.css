@@ -1,7 +1,13 @@
 @import url(./colores.css);
 @import url(./fonts.css);
 
+.video{
+    width: 100%;
+    object-fit: cover;
+    height: 25rem;
+    object-position: 30%;
 
+}
 header {
     position: fixed;
     top: 0;
