@@ -6,7 +6,15 @@
     object-fit: cover;
     height: 25rem;
     object-position: 30%;
+}
+@media screen and (max-width:767px){
+    .video{
+        height: auto;
+    }
+}
 
+body{
+    background-color: #eaeaea;
 }
 header {
     position: fixed;
@@ -130,8 +138,10 @@ header {
 
     @media screen and (max-width:768px) {
         & img {
-            height: 20rem;
+            height: 14.9rem;
+            
         }
+
 
     }
 }
@@ -285,8 +295,8 @@ label {
 }
 
 input[type=checkbox] {
-    width: 30px;
-    aspect-ratio: 1/1;
+    width: 3rem;
+    aspect-ratio: 2/1;
 }
 
 .labelcheckbox {
@@ -296,6 +306,7 @@ input[type=checkbox] {
     font-weight: 300;
     font-size: 1.4rem;
     margin-bottom: 1.2vw;
+
 }
 
 input[type="submit"] {
