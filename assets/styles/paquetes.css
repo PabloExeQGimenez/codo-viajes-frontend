@@ -211,13 +211,18 @@ section > h1 {
     width: 100%;
     border-radius: 10px;
     box-shadow: 2px 5px 15px  #999;
+    transition: all 100ms;
+
 }
 @media screen and (max-width: 768px){
     .card{
         flex-direction: column;
     }
 }
-
+.card:hover, .cardrec:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
 .cardrec img,
 .card img {
     width: 40%;

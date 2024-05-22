@@ -170,6 +170,7 @@ h2 {
         width: 45%;
         border-radius: 10px;
         box-shadow: 2px 5px 15px #999;
+        transition: all 100ms;
     }
     @media screen and (max-width:768px) {
         .card{
@@ -180,7 +181,7 @@ h2 {
     }
 
     .card:hover {
-        transform: scale(1.05)
+        transform: scale(1.08)
     }
 
     .card img {
