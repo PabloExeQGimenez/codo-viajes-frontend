@@ -30,8 +30,8 @@ header .logo {
     }
 
    .pageCoverAsistent {
-         content: url("../img/asistenciaAlViajeroCelu.jpeg");
-        /* cambia el banner cuado es para celus */
+        content: url("../img/asistenciaAlViajero.jpg");
+        object-position: top;
     }
 }
 

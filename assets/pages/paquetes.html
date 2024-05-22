@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1e025ea79c.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../styles/paquetes.css">
     <title>Paquetes</title>
 </head>
@@ -24,7 +24,7 @@
         </div>
         <nav class="menu">
             <a href="../../index.html">Inicio</a>
-            <a class="activo" href="#">Paquetes</a>
+            <a class="activo" href="../pages/paquetes.html">Paquetes</a>
             <a href="../pages/asistencia.html">Asistencia</a>
             <a href="../pages/pasajes.html">Pasajes</a>
             <a href="../pages/nosotros.html">Nosotros</a>
@@ -35,15 +35,14 @@
             data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
                 class="bi bi-list"></i></button>
 
-        <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
-            aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
             <div class="offcanvas-header">
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
                 <nav class="menuResponsive">
                     <a href="../../index.html">Inicio</a>
-                    <a class="activo" href="#">Paquetes</a>
+                    <a class="activo" href="../pages/paquetes.html">Paquetes</a>
                     <a href="../pages/asistencia.html">Asistencia</a>
                     <a href="../pages/pasajes.html">Pasajes</a>
                     <a href="../pages/nosotros.html">Nosotros</a>
@@ -53,133 +52,11 @@
         <!--fin menu responsive-->
     </header>
     <main>
-        <section id="recsection">
-            <h1>Recomendaciones</h1>
-            <div class="cardrec">
-                <img src="../img/mdp.jpg" alt="Mar del Plata">
-                <div class="infobox">
-                    <h2>Mar del Plata</h2>
-                    <ul>
-                        <li>6 noches 7 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="cardrec">
-                <img src="../img/cba.jpg" alt="Córdoba">
-                <div class="infobox">
-                    <h2>Córdoba</h2>
-                    <ul>
-                        <li>3 noches 4 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
+        <section id="recsection" >
+            
         </section>
         <section id="cardssection">
-            <h1>Nuestros planes</h1>
-            <div class="card">
-                <img src="../img/mdq.jpg" alt="Mar del Plata">
-                <div class="infobox">
-                    <h2>Mar del Plata</h2>
-                    <p>Pasá una semana en la ciudad turística por excelencia. Date el lujo de conocer todas las
-                        propuestas que tiene para ofrecer.</p>
-                    <ul>
-                        <li>6 noches 7 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/cba.jpg" alt="Córdoba">
-                <div class="infobox">
-                    <h2>Córdoba</h2>
-                    <p>No sé que hay acá xd pero está piola.</p>
-                    <ul>
-                        <li>3 noches 4 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="../img/mdp.jpg" alt="Mar del Plata">
-                <div class="infobox">
-                    <h2>Mar del Plata</h2>
-                    <p>Pasá una semana en la ciudad turística por excelencia. Date el lujo de conocer todas las
-                        propuestas que tiene para ofrecer.</p>
-                    <ul>
-                        <li>6 noches 7 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="cba.jpg" alt="Córdoba">
-                <div class="infobox">
-                    <h2>Córdoba</h2>
-                    <p>Date una escapada a una de las ciudades con más valor cultural del país.</p>
-                    <ul>
-                        <li>3 noches 4 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="mdp.jpg" alt="Mar del Plata">
-                <div class="infobox">
-                    <h2>Mar del Plata</h2>
-                    <p>Pasá una semana en la ciudad turística por excelencia. Date el lujo de conocer todas las
-                        propuestas que tiene para ofrecer.</p>
-                    <ul>
-                        <li>6 noches 7 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="cba.jpg" alt="Córdoba">
-                <div class="infobox">
-                    <h2>Córdoba</h2>
-                    <p>No sé que hay acá xd pero está piola.</p>
-                    <ul>
-                        <li>3 noches 4 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="mdp.jpg" alt="Mar del Plata">
-                <div class="infobox">
-                    <h2>Mar del Plata</h2>
-                    <p>Pasá una semana en la ciudad turística por excelencia. Date el lujo de conocer todas las
-                        propuestas que tiene para ofrecer.</p>
-                    <ul>
-                        <li>6 noches 7 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="card">
-                <img src="cba.jpg" alt="Córdoba">
-                <div class="infobox">
-                    <h2>Córdoba</h2>
-                    <p>No sé que hay acá xd pero está piola.</p>
-                    <ul>
-                        <li>3 noches 4 días</li>
-                        <li>[Precio]</li>
-                        <li>Micro</li>
-                    </ul>
-                </div>
-            </div>
+            
         </section>
     </main>
     <footer class="footer">
@@ -190,7 +67,7 @@
             <a href="https://x.com/?lang=es" target="_blank" class="text-reset">
                 <i class="fa-brands fa-square-x-twitter"></i></a>
             <a href="http://www.google.com" target="_blank" class="text-reset">
-                <i class="fa-brands fa-square-google-plus"></i>
+                <i class="fa-brands fa-square-google-plus"></i></a>
                 <a href="http://www.instagram.com" target="_blank" class="text-reset">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
@@ -199,10 +76,10 @@
             <p>© 2024 Codo Viajes - Grupo NODA.js</p>
         </div>
     </footer>
+    <script src="../scripts/paquetes.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
